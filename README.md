@@ -1,7 +1,7 @@
 # RoboCourier
-# RoboCourier
 
 A simple reinforcement learning environment for training agents to complete delivery tasks on a grid world.  
+
 The agent controls a small robot courier that must:
 
 - Navigate to a pickup location
