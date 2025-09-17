@@ -1,16 +1,13 @@
 # RoboCourier
 # RoboCourier
 
-**RoboCourier** is a simple reinforcement learning environment for training agents to complete delivery tasks on a grid world.  
+A simple reinforcement learning environment for training agents to complete delivery tasks on a grid world.  
 The agent controls a small robot courier that must:
 
 - Navigate to a pickup location
 - Collect a package
 - Deliver it to the dropoff point
 - Recharge at a charger if the battery runs low
-
-This environment is designed to be lightweight, interpretable, and useful for experimenting with RL concepts like navigation, sparse rewards, and resource management.
-
 ---
 
 ## Observation Space
@@ -31,14 +28,11 @@ This environment is designed to be lightweight, interpretable, and useful for ex
   - `3` = Move Right
 
 ---
-
 ## Rewards
 - `-0.1` per step (time cost)
 - `+10` for successful delivery
 - `-5` if battery runs out before recharging
-
 ---
-
 ## Installation
 Install from the Prime Hub:
 
