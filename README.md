@@ -39,5 +39,4 @@ Install from the Prime Hub:
 ```bash
 prime env install sutan/robocourier
 
-# 
-![RoboCourier demo](image/robo.png)
+
